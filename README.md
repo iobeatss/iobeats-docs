@@ -1,8 +1,8 @@
 # 📚 IO Beats Documentation  
 
-![Docs](https://img.shields.io/badge/Docs-Available-blue)  
-![Multi-Chain](https://img.shields.io/badge/Deployed-MultiChain-purple)  
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/iobeatss/iobeats-docs/blob/main/LICENSE)  
+[![Docs](https://img.shields.io/badge/Docs-Available-blue)](https://github.com/iobeatss/iobeats-docs)  
+[![Multi-Chain](https://img.shields.io/badge/Deployed-MultiChain-purple)](https://github.com/iobeatss/IOB-Smart-contract/blob/main/MULTICHAIN.md)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/iobeatss/IOB-Smart-contract/blob/main/LICENSE)  
 
 Official IO Beats documentation repository.  
 Here you will find the core documents of the $IOB ecosystem: Whitepaper, Pitch Deck, Governance Plan, and Token Distribution.  
@@ -32,6 +32,6 @@ IO Beats is the Web3 music ecosystem where **NFTs, DeFi, and community governanc
 ## 🔹 License  
 
 This repository is licensed under the **MIT License**.  
-See [LICENSE](./LICENSE) for details.  
+See [LICENSE](https://github.com/iobeatss/IOB-Smart-contract/blob/main/LICENSE) for details.  
 
 
