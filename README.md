@@ -1,14 +1,14 @@
-## 📄 Documentation (avec covers)
+# 📚 IO Beats Documentation  
 
-### Whitepaper  
-[![Whitepaper](whitepaper-cover.png)](iobeats-white-paper.pdf)
+Official repository for all IO Beats documentation files.  
 
-### Pitch Deck  
-[![Pitch Deck](pitchdeck-cover.png)](iobeats-pitch-deck.pdf)
+| Document             | Lien PDF | Lien Web |
+|----------------------|----------|----------|
+| Whitepaper           | [Télécharger](iobeats-white-paper.pdf) | [Voir en ligne](https://open.iobeats.com/doc/iobeats-white-paper.pdf) |
+| Pitch Deck           | [Télécharger](iobeats-pitch-deck.pdf) | [Voir en ligne](https://open.iobeats.com/doc/iobeats-pitch-deck.pdf) |
+| Governance Plan      | [Télécharger](iobeats-Governance-plan.pdf) | [Voir en ligne](https://open.iobeats.com/doc/iobeats-Governance-plan.pdf) |
+| Token Distribution   | [Télécharger](iobeats-token-distribution.pdf) | [Voir en ligne](https://open.iobeats.com/doc/iobeats-token-distribution.pdf) |
 
-### Governance Plan  
-[![Governance Plan](governance-cover.png)](iobeats-governance-plan.pdf)
+---
 
-### Token Distribution  
-[![Token Distribution](distribution-cover.png)](iobeats-token-distribution.pdf)
-
+🔹 *This repository centralizes all IO Beats official documents for investors, partners, and the community.*
