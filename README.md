@@ -45,4 +45,5 @@ meet across multiple chains.
 ## 🔹 License  
 
 This repository is licensed under the **MIT License**.  
-See [LICENSE](https://github.com/iobeatss/IOB-Smart-contract/blob/main/LICENSE) for details.  
+See [LICENSE](https://github.com/iobeatss/IOB-Smart-contract/blob/main/LICENSE)  
+for details.  
