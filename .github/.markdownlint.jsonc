@@ -1,2 +1,8 @@
-- name: Markdown Lint
-  run: markdownlint-cli2 "**/*.md" "#node_modules" "#.git" --config .markdownlint.jsonc
+{
+  "default": true,
+  "MD013": { "line_length": 200, "code_blocks": false, "tables": false },
+  "MD022": false,
+  "MD032": false,
+  "MD033": false,
+  "MD041": false
+}
