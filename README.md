@@ -1,14 +1,15 @@
 # 📚 iO Beats Documentation  
 
-[![Audit](https://img.shields.io/badge/Audit-Cyberscope-brightgreen.svg)](https://raw.githubusercontent.com/cyberscope-io/audits/main/iob/audit.pdf)
-[![Solidity](https://img.shields.io/badge/Solidity-0.8.24-blue.svg?logo=solidity)](https://docs.soliditylang.org/en/v0.8.24/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/iobeatss/IOB-Smart-contract/blob/main/LICENSE)
-[![Deployment](https://img.shields.io/badge/Deployed-MultiChain-purple.svg)](https://github.com/iobeatss/IOB-Smart-contract#deployment)
-[![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-Framework-blue.svg)](https://docs.openzeppelin.com/)
-[![Docs](https://img.shields.io/badge/Docs-Available-brightgreen.svg)](https://github.com/iobeatss/iobeats-docs)
+[![Audit](https://img.shields.io/badge/Audit-Cyberscope-brightgreen.svg)](https://raw.githubusercontent.com/cyberscope-io/audits/main/iob/audit.pdf)  
+[![Solidity](https://img.shields.io/badge/Solidity-0.8.24-blue.svg?logo=solidity)](https://docs.soliditylang.org/en/v0.8.24/)  
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/iobeatss/IOB-Smart-contract/blob/main/LICENSE)  
+[![Deployment](https://img.shields.io/badge/Deployed-MultiChain-purple.svg)](https://github.com/iobeatss/IOB-Smart-contract#deployment)  
+[![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-Framework-blue.svg)](https://docs.openzeppelin.com/)  
+[![Docs](https://img.shields.io/badge/Docs-Available-brightgreen.svg)](https://github.com/iobeatss/iobeats-docs)  
 
 Official iO Beats documentation repository.  
-Here you will find the core documents of the $IOB ecosystem: Whitepaper, Pitch Deck, Governance Plan, and Token Distribution.  
+Here you will find the core documents of the $IOB ecosystem:  
+Whitepaper, Pitch Deck, Governance Plan, and Token Distribution.  
 
 ---
 
@@ -32,10 +33,12 @@ Here you will find the core documents of the $IOB ecosystem: Whitepaper, Pitch D
 
 ## 🔹 About iO Beats  
 
-iO Beats is the Web3 music ecosystem where **NFTs, DeFi, and community governance** meet across multiple chains.  
-- 🎵 Ownable Music — Collect tracks & moments as NFTs with real utility  
-- 👥 Creator Economy — Fair royalties, fan tiers, and token-powered perks  
-- 💰 DeFi-Ready — Staking, quests, and on-chain rewards in $IOB  
+iO Beats is the Web3 music ecosystem where **NFTs, DeFi, and community governance**  
+meet across multiple chains.  
+
+- 🎵 **Ownable Music** — Collect tracks & moments as NFTs with real utility  
+- 👥 **Creator Economy** — Fair royalties, fan tiers, and token-powered perks  
+- 💰 **DeFi-Ready** — Staking, quests, and on-chain rewards in $IOB  
 
 ---
 
