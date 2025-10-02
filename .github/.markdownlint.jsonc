@@ -4,5 +4,6 @@
   "MD022": false,
   "MD032": false,
   "MD033": false,
+  "MD034": false,   // no-bare-urls (emails/URLs nus autorisés)
   "MD041": false
 }
