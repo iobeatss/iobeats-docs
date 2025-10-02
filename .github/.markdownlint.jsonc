@@ -1,0 +1,2 @@
+- name: Markdown Lint
+  run: markdownlint-cli2 "**/*.md" "#node_modules" "#.git" --config .markdownlint.jsonc
