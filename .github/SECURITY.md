@@ -8,5 +8,5 @@ We release patches for the following versions:
 ## Reporting a Vulnerability
 If you discover a security vulnerability, please report it responsibly:
 
-- Email: security@iobeats.com
+- Email: [security@iobeats.com](mailto:security@iobeats.com)
 - Or open a private report via GitHub Security Advisories.
