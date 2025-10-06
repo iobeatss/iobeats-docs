@@ -2,6 +2,14 @@
   <img src="https://raw.githubusercontent.com/iobeatss/iobeats-logo-assets/main/hero1.gif"
        alt="IO Beats Treasury Banner" width="100%" />
 </p>
+## 🔗 Quick Menu
+- **Repos:**  
+  [IOB Smart Contracts](https://github.com/iobeatss/IOB-Smart-contract) ·
+  [Treasury](https://github.com/iobeatss/treasury) ·
+  [iobeats-player](https://github.com/iobeatss/iobeats-player) ·
+  [BeatsApe](https://github.com/iobeatss/BeatsApe) ·
+  [iobeats-docs](https://github.com/iobeatss/iobeats-docs) ·
+  [iobeats-logo-assets](https://github.com/iobeatss/iobeats-logo-assets)  
 
 
 # 📚 iO Beats Documentation  
