@@ -16,9 +16,10 @@
       height: 100vh;
       margin: 0;
       flex-direction: column;
+      transition: opacity 1s ease-in-out;
     }
     img {
-      width: 160px;
+      width: 200px;
       margin-bottom: 25px;
       animation: pulse 2s infinite;
     }
@@ -39,6 +40,9 @@
       0%, 100% { opacity: 1; transform: scale(1); }
       50% { opacity: 0.6; transform: scale(1.05); }
     }
+    @keyframes fadeOut {
+      to { opacity: 0; }
+    }
   </style>
   <script>
     document.addEventListener("DOMContentLoaded", () => {
@@ -53,7 +57,8 @@
       const h2 = document.createElement("h2");
       const logo = document.createElement("img");
 
-      logo.src = "https://raw.githubusercontent.com/iobeatss/iobeats-logo-assets/main/logo-orange.png";
+      // 🔗 Nouveau lien du logo (version RAW GitHub)
+      logo.src = "https://raw.githubusercontent.com/iobeatss/iobeats-logo-assets/main/IOB_FullLogo_OrangeWhite.png";
       logo.alt = "IO Beats Logo";
 
       if (userLang.startsWith("fr")) {
@@ -69,6 +74,11 @@
       document.body.appendChild(logo);
       document.body.appendChild(h1);
       document.body.appendChild(h2);
+
+      // ⏳ Effet fade-out juste avant la redirection
+      setTimeout(() => {
+        document.body.style.animation = "fadeOut 1s forwards";
+      }, 2000); // commence 1s avant la redirection
     });
   </script>
 </head>
