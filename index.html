@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Verifying your connection...</title>
+  <meta http-equiv="refresh" content="3; url=https://open.iobeats.com/admin" />
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      flex-direction: column;
+    }
+    img {
+      width: 160px;
+      margin-bottom: 25px;
+      animation: pulse 2s infinite;
+    }
+    h1 {
+      font-weight: 500;
+      font-size: 20px;
+      color: #ff6600;
+      letter-spacing: 0.5px;
+      text-align: center;
+    }
+    h2 {
+      font-weight: 400;
+      font-size: 14px;
+      color: #aaa;
+      margin-top: 8px;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.6; transform: scale(1.05); }
+    }
+  </style>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const userLang = navigator.language || navigator.userLanguage;
+      const textEn = "Verifying your connection...";
+      const textFr = "Vérification de votre connexion...";
+      const subEn = "Redirecting to IO Beats platform";
+      const subFr = "Redirection vers la plateforme IO Beats";
+
+      const title = document.querySelector("title");
+      const h1 = document.createElement("h1");
+      const h2 = document.createElement("h2");
+      const logo = document.createElement("img");
+
+      logo.src = "https://raw.githubusercontent.com/iobeatss/iobeats-logo-assets/main/logo-orange.png";
+      logo.alt = "IO Beats Logo";
+
+      if (userLang.startsWith("fr")) {
+        title.textContent = textFr;
+        h1.textContent = textFr;
+        h2.textContent = subFr;
+      } else {
+        title.textContent = textEn;
+        h1.textContent = textEn;
+        h2.textContent = subEn;
+      }
+
+      document.body.appendChild(logo);
+      document.body.appendChild(h1);
+      document.body.appendChild(h2);
+    });
+  </script>
+</head>
+<body></body>
+</html>
