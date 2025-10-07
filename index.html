@@ -16,17 +16,13 @@
       height: 100vh;
       margin: 0;
       flex-direction: column;
-      opacity: 0; /* fade-in initial */
-      animation: fadeIn 1.5s ease-in-out forwards;
       transition: opacity 1s ease-in-out;
     }
-
     img {
       width: 200px;
       margin-bottom: 25px;
       animation: pulse 2s infinite;
     }
-
     h1 {
       font-weight: 500;
       font-size: 20px;
@@ -34,32 +30,20 @@
       letter-spacing: 0.5px;
       text-align: center;
     }
-
     h2 {
       font-weight: 400;
       font-size: 14px;
       color: #aaa;
       margin-top: 8px;
     }
-
-    /* Animation du logo pulsant */
     @keyframes pulse {
       0%, 100% { opacity: 1; transform: scale(1); }
       50% { opacity: 0.6; transform: scale(1.05); }
     }
-
-    /* Animation fade-in */
-    @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
-
-    /* Animation fade-out */
     @keyframes fadeOut {
       to { opacity: 0; }
     }
   </style>
-
   <script>
     document.addEventListener("DOMContentLoaded", () => {
       const userLang = navigator.language || navigator.userLanguage;
@@ -73,11 +57,10 @@
       const h2 = document.createElement("h2");
       const logo = document.createElement("img");
 
-      // 🔗 Logo officiel IO Beats (raw link)
+      // 🔗 Nouveau lien du logo (version RAW GitHub)
       logo.src = "https://raw.githubusercontent.com/iobeatss/iobeats-logo-assets/main/IOB_FullLogo_OrangeWhite.png";
       logo.alt = "IO Beats Logo";
 
-      // 🧠 Langue du navigateur
       if (userLang.startsWith("fr")) {
         title.textContent = textFr;
         h1.textContent = textFr;
@@ -92,10 +75,10 @@
       document.body.appendChild(h1);
       document.body.appendChild(h2);
 
-      // 🌙 Fade-out avant redirection
+      // ⏳ Effet fade-out juste avant la redirection
       setTimeout(() => {
         document.body.style.animation = "fadeOut 1s forwards";
-      }, 2000); // 1s avant redirection
+      }, 2000); // commence 1s avant la redirection
     });
   </script>
 </head>
