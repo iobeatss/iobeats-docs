@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Verifying your connection...</title>
   <meta http-equiv="refresh" content="3; url=https://open.iobeats.com/admin" />
   <style>
@@ -16,62 +16,47 @@
       height: 100vh;
       margin: 0;
       flex-direction: column;
-      opacity: 0; /* start invisible for fade-in */
+      opacity: 0; /* fade-in initial */
       animation: fadeIn 1.5s ease-in-out forwards;
       transition: opacity 1s ease-in-out;
-      padding: 0 20px;
-      text-align: center;
     }
 
     img {
-      width: 220px;
+      width: 200px;
       margin-bottom: 25px;
       animation: pulse 2s infinite;
     }
 
     h1 {
-      font-weight: 600;
+      font-weight: 500;
       font-size: 20px;
       color: #ff6600;
       letter-spacing: 0.5px;
-      margin: 10px 0 5px;
+      text-align: center;
     }
 
     h2 {
       font-weight: 400;
-      font-size: 15px;
+      font-size: 14px;
       color: #aaa;
       margin-top: 8px;
     }
 
-    /* Logo pulse */
+    /* Animation du logo pulsant */
     @keyframes pulse {
       0%, 100% { opacity: 1; transform: scale(1); }
       50% { opacity: 0.6; transform: scale(1.05); }
     }
 
-    /* Fade in and out */
+    /* Animation fade-in */
     @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(10px); }
-      to { opacity: 1; transform: translateY(0); }
+      from { opacity: 0; }
+      to { opacity: 1; }
     }
 
+    /* Animation fade-out */
     @keyframes fadeOut {
-      to { opacity: 0; transform: scale(0.97); }
-    }
-
-    /* 🌍 Mobile optimization */
-    @media (max-width: 600px) {
-      img {
-        width: 160px;
-        margin-bottom: 20px;
-      }
-      h1 {
-        font-size: 17px;
-      }
-      h2 {
-        font-size: 13px;
-      }
+      to { opacity: 0; }
     }
   </style>
 
@@ -88,11 +73,11 @@
       const h2 = document.createElement("h2");
       const logo = document.createElement("img");
 
-      // 🔗 IO Beats Logo
+      // 🔗 Logo officiel IO Beats (raw link)
       logo.src = "https://raw.githubusercontent.com/iobeatss/iobeats-logo-assets/main/IOB_FullLogo_OrangeWhite.png";
       logo.alt = "IO Beats Logo";
 
-      // 🌐 Langue auto
+      // 🧠 Langue du navigateur
       if (userLang.startsWith("fr")) {
         title.textContent = textFr;
         h1.textContent = textFr;
@@ -107,10 +92,10 @@
       document.body.appendChild(h1);
       document.body.appendChild(h2);
 
-      // 🌙 Fade-out before redirect
+      // 🌙 Fade-out avant redirection
       setTimeout(() => {
         document.body.style.animation = "fadeOut 1s forwards";
-      }, 2000);
+      }, 2000); // 1s avant redirection
     });
   </script>
 </head>
