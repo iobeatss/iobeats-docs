@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Verifying your connection...</title>
   <meta http-equiv="refresh" content="3; url=https://open.iobeats.com/admin" />
+
   <style>
     body {
       background-color: #000;
@@ -18,11 +19,13 @@
       flex-direction: column;
       transition: opacity 1s ease-in-out;
     }
+
     img {
       width: 200px;
       margin-bottom: 25px;
       animation: pulse 2s infinite;
     }
+
     h1 {
       font-weight: 500;
       font-size: 20px;
@@ -30,37 +33,52 @@
       letter-spacing: 0.5px;
       text-align: center;
     }
+
     h2 {
       font-weight: 400;
       font-size: 14px;
       color: #aaa;
       margin-top: 8px;
     }
+
     @keyframes pulse {
       0%, 100% { opacity: 1; transform: scale(1); }
       50% { opacity: 0.6; transform: scale(1.05); }
     }
+
     @keyframes fadeOut {
       to { opacity: 0; }
     }
   </style>
+
   <script>
     document.addEventListener("DOMContentLoaded", () => {
       const userLang = navigator.language || navigator.userLanguage;
+      const host = window.location.hostname;
+
+      // 🧭 Définition de la redirection selon le domaine
+      let redirectUrl = "https://open.iobeats.com/admin"; // Par défaut
+      if (host.includes("verify.open.iobeats.com")) {
+        redirectUrl = "https://iobeats.com"; // redirige vers la page principale
+      }
+
+      // 🗣️ Détection langue
       const textEn = "Verifying your connection...";
       const textFr = "Vérification de votre connexion...";
       const subEn = "Redirecting to IO Beats platform";
       const subFr = "Redirection vers la plateforme IO Beats";
 
+      // 🌐 Création des éléments
       const title = document.querySelector("title");
       const h1 = document.createElement("h1");
       const h2 = document.createElement("h2");
       const logo = document.createElement("img");
 
-      // 🔗 Nouveau lien du logo (version RAW GitHub)
+      // 🧡 Logo officiel IO Beats (source GitHub RAW)
       logo.src = "https://raw.githubusercontent.com/iobeatss/iobeats-logo-assets/main/IOB_FullLogo_OrangeWhite.png";
       logo.alt = "IO Beats Logo";
 
+      // 🌍 Traduction dynamique
       if (userLang.startsWith("fr")) {
         title.textContent = textFr;
         h1.textContent = textFr;
@@ -71,6 +89,7 @@
         h2.textContent = subEn;
       }
 
+      // 🧩 Insertion dans le DOM
       document.body.appendChild(logo);
       document.body.appendChild(h1);
       document.body.appendChild(h2);
@@ -78,7 +97,12 @@
       // ⏳ Effet fade-out juste avant la redirection
       setTimeout(() => {
         document.body.style.animation = "fadeOut 1s forwards";
-      }, 2000); // commence 1s avant la redirection
+      }, 2000);
+
+      // 🚀 Redirection finale automatique (sécurisée)
+      setTimeout(() => {
+        window.location.href = redirectUrl;
+      }, 3000);
     });
   </script>
 </head>
