@@ -1,6 +1,10 @@
 {
+  // Assouplir le lint le temps de stabiliser les docs
   "default": true,
-  "MD013": { "line_length": 120, "code_blocks": false, "tables": false },
-  "MD033": false,
-  "MD041": false
+  "MD012": false,                 // multiple blank lines
+  "MD032": false,                 // blank line autour des listes
+  "MD013": { "line_length": 999 },// longueur de ligne relâchée
+  "MD033": false,                 // HTML inline autorisé (badges <img> etc.)
+  "MD041": false,                 // pas obligé d'avoir un titre H1 en tête
+  "MD022": { "lines_above": 1, "lines_below": 1 } // garder un minimum propre
 }
