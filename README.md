@@ -1,93 +1,121 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>iO Beats — Documentation Hub</title>
-  <meta name="description" content="IO Beats documentation: whitepapers, transparency packs, governance, and dashboards." />
-  <link rel="icon" href="https://raw.githubusercontent.com/iobeatss/iobeats-logo-assets/main/favicon.png" />
-  <style>
-    :root {
-      --bg: #0b0b0f; --card: #111218; --text: #f6f6f7; --muted:#b8bcc7; --accent:#ff7a00; --link:#ffd4ad; --border:#20222b;
-      --radius: 16px; --pad: 22px; --max: 980px;
-    }
-    * { box-sizing: border-box; }
-    html, body { height: 100%; }
-    body {
-      margin: 0; font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, Noto Sans, sans-serif;
-      color: var(--text); background: radial-gradient(1000px 600px at 50% -10%, #171824, var(--bg));
-    }
-    .wrap { max-width: var(--max); margin: 0 auto 64px; padding: 20px; }
-    .hero {
-      border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; background: var(--card);
-      box-shadow: 0 10px 35px rgba(0,0,0,.35);
-    }
-    .hero img { width: 100%; display: block; }
-    h1 { font-size: 34px; margin: 18px 0 4px; }
-    h2 { font-size: 22px; margin: 28px 0 12px; }
-    p.lead { color: var(--muted); margin: 0 0 14px; }
-    .grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
-    .card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--pad); }
-    .muted { color: var(--muted); }
-    a { color: var(--link); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .badge { display: inline-block; padding: 6px 10px; border: 1px solid var(--border); border-radius: 999px; background: #14151c; color: var(--muted); font-size: 12px; }
-    .list { margin: 10px 0 0; padding-left: 18px; }
-  </style>
-</head>
-<body>
-  <div class="wrap">
-    <div class="hero">
-      <img src="https://raw.githubusercontent.com/iobeatss/iobeats-logo-assets/main/hero1.gif" alt="IO Beats Banner" />
-    </div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/iobeatss/iobeats-logo-assets/main/hero1.gif" alt="IO Beats Docs Banner" width="100%" />
+</p>
 
-    <h1>iO Beats — Documentation Hub</h1>
-    <p class="lead">Own the Music. Earn the Future. Whitepapers, transparency packs, governance docs, and live dashboards.</p>
+# 📚 iO Beats — Documentation Hub
 
-    <div class="grid" style="margin:22px 0 28px">
-      <div class="card">
-        <h2>Quick Menu</h2>
-        <ul class="list">
-          <li><strong>Repos:</strong>
-            <a href="https://github.com/iobeatss/IOB-Smart-contract">Smart Contracts</a> ·
-            <a href="https://github.com/iobeatss/treasury">Treasury</a> ·
-            <a href="https://github.com/iobeatss/iobeats-player">Player</a> ·
-            <a href="https://github.com/iobeatss/BeatsApe">BeatsApe</a> ·
-            <a href="https://github.com/iobeatss/iobeats-docs">Docs</a> ·
-            <a href="https://github.com/iobeatss/iobeats-logo-assets">Logo Assets</a>
-          </li>
-          <li><strong>Governance:</strong> <a href="https://snapshot.box/#/s:iobdao.eth">Snapshot — iobdao.eth</a></li>
-          <li><strong>Dashboards:</strong> <a href="https://dune.com/iobeats_dao">Dune — IO Beats DAO</a></li>
-        </ul>
-      </div>
+**Own the Music. Earn the Future.**  
+Central hub for whitepapers, transparency packs, governance docs, and real-time dashboards of the IO Beats ecosystem.
 
-      <div class="card">
-        <h2>Transparency Packs</h2>
-        <div class="muted">Curated, investor-ready PDF bundles with on-chain references.</div>
-        <ul class="list">
-          <li><strong>Global v1.0:</strong> Overview · Terms · Proofs</li>
-          <li><strong>Per-Chain v1.0:</strong> ETH · BNB · Base · Polygon · Arbitrum</li>
-          <li class="muted">Update v1.2 planned: NFT Yield · Sablier Vesting · Payroll & Academy</li>
-        </ul>
-      </div>
+[![Docs CI](https://img.shields.io/badge/Docs-CI-green)](#)
+[![Audit](https://img.shields.io/badge/Audit-Cyberscope-brightgreen.svg)](https://raw.githubusercontent.com/cyberscope-io/audits/main/iob/audit.pdf)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/iobeatss/IOB-Smart-contract/blob/main/LICENSE)
 
-      <div class="card">
-        <h2>Governance Docs</h2>
-        <ul class="list">
-          <li>DAO Intro & Rules</li>
-          <li>Genesis Proposal #001 — The Birth of IO Beats DAO</li>
-          <li>Treasury Transparency v1.0</li>
-          <li>Governance Expansion v1.1</li>
-        </ul>
-      </div>
+---
 
-      <div class="card">
-        <h2>Security & License</h2>
-        <p class="muted">Report responsibly to <a href="mailto:security@iobeats.com">security@iobeats.com</a>.</p>
-        <p><span class="badge">Audit</span> <a href="https://raw.githubusercontent.com/cyberscope-io/audits/main/iob/audit.pdf">Cyberscope</a></p>
-        <p><span class="badge">License</span> <a href="https://github.com/iobeatss/IOB-Smart-contract/blob/main/LICENSE">MIT</a></p>
-      </div>
-    </div>
-  </div>
-</body>
-</html>
+## 🔗 Quick Menu
+
+- **Repos:**  
+  [IOB Smart Contracts](https://github.com/iobeatss/IOB-Smart-contract) ·
+  [Treasury](https://github.com/iobeatss/treasury) ·
+  [iobeats-player](https://github.com/iobeatss/iobeats-player) ·
+  [BeatsApe](https://github.com/iobeatss/BeatsApe) ·
+  [iobeats-docs](https://github.com/iobeatss/iobeats-docs) ·
+  [iobeats-logo-assets](https://github.com/iobeatss/iobeats-logo-assets)
+
+- **Governance:**  
+  [Snapshot — iobdao.eth](https://snapshot.box/#/s:iobdao.eth)
+
+- **Dashboards:**  
+  [Dune — IO Beats DAO](https://dune.com/iobeats_dao)
+
+---
+
+## 🧭 Contents
+
+- [Transparency Packs](#-transparency-packs)
+- [Governance Docs](#-governance-docs)
+- [Dashboards (Live)](#-dashboards-live)
+- [Releases & Changelog](#-releases--changelog)
+- [Contributing](#-contributing)
+- [Security](#-security)
+- [License](#-license)
+
+---
+
+## 📑 Transparency Packs
+
+Curated, investor-ready PDF bundles with on-chain references and CI-generated proofs.
+
+- **Global (v1.0):**  
+  - *IOB_Presale_Global_Overview_v1.0.pdf*  
+  - *IOB_Presale_Terms_v1.0.pdf*  
+  - *IOB_Presale_Proofs_v1.0.pdf*
+
+- **Per-Chain (v1.0):**  
+  - *IOB_Treasury_Transparency_ETH_v1.0.pdf*  
+  - *IOB_Treasury_Transparency_BNB_v1.0.pdf*  
+  - *IOB_Treasury_Transparency_Base_v1.0.pdf*  
+  - *IOB_Treasury_Transparency_Polygon_v1.0.pdf*  
+  - *IOB_Treasury_Transparency_Arbitrum_v1.0.pdf*
+
+> **Update (v1.2) planned:** NFT Yield strategies, Sablier vesting reports, Payroll & Academy transparency docs.
+
+---
+
+## 🗳 Governance Docs
+
+- **DAO Intro & Rules:** Roles, proposal lifecycle, execution flow.  
+- **Active Proposals (examples):**  
+  - *Genesis Proposal #001 — The Birth of IO Beats DAO*  
+  - *Treasury Transparency v1.0*  
+  - *Governance Expansion v1.1*
+
+All votes occur on **Snapshot** → [iobdao.eth](https://snapshot.box/#/s:iobdao.eth).
+
+---
+
+## 📊 Dashboards (Live)
+
+- **Safe inflows / outflows / balance** per chain (Dune).  
+- **Presale metrics & proofs**.  
+- **Liquidity and DeFi positions**.
+
+Primary entry: [Dune — IO Beats DAO](https://dune.com/iobeats_dao).
+
+---
+
+## 🚀 Releases & Changelog
+
+- Tagged PDFs per version in repo releases.  
+- Changelogs reside in their respective repositories when applicable.
+
+---
+
+## 🤝 Contributing
+
+1. Create a branch from `main`.  
+2. Commit Markdown/PDF assets under the appropriate `docs/` path.  
+3. Open a Pull Request — **Docs CI** runs:
+   - Markdown lint (`markdownlint-cli2`)
+   - Link checker (`lychee`)
+   - Codespell (project dictionary)
+
+> Style guide: one blank line before/after headings and lists; no consecutive blank lines.
+
+---
+
+## 🔐 Security
+
+If you discover a vulnerability, please report it responsibly:
+
+- Email: security@iobeats.com  
+- Or open a private report via **GitHub Security Advisories**.
+
+Audit: [Cyberscope](https://raw.githubusercontent.com/cyberscope-io/audits/main/iob/audit.pdf).
+
+---
+
+## 📄 License
+
+This repository is licensed under the [MIT License](https://github.com/iobeatss/IOB-Smart-contract/blob/main/LICENSE).
