@@ -1,9 +1,20 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/iobeatss/iobeats-logo-assets/main/hero1.gif"
-       alt="IO Beats Documentation Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/iobeatss/iobeats-logo-assets/main/hero1.gif" alt="IO Beats Docs Banner" width="100%" />
 </p>
 
+# 📚 iO Beats — Documentation Hub
+
+**Own the Music. Earn the Future.**  
+Central hub for whitepapers, transparency packs, governance docs, and real-time dashboards of the IO Beats ecosystem.
+
+[![Docs CI](https://img.shields.io/badge/Docs-CI-green)](#)
+[![Audit](https://img.shields.io/badge/Audit-Cyberscope-brightgreen.svg)](https://raw.githubusercontent.com/cyberscope-io/audits/main/iob/audit.pdf)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/iobeatss/IOB-Smart-contract/blob/main/LICENSE)
+
+---
+
 ## 🔗 Quick Menu
+
 - **Repos:**  
   [IOB Smart Contracts](https://github.com/iobeatss/IOB-Smart-contract) ·
   [Treasury](https://github.com/iobeatss/treasury) ·
@@ -12,69 +23,99 @@
   [iobeats-docs](https://github.com/iobeatss/iobeats-docs) ·
   [iobeats-logo-assets](https://github.com/iobeatss/iobeats-logo-assets)
 
----
+- **Governance:**  
+  [Snapshot — iobdao.eth](https://snapshot.box/#/s:iobdao.eth)
 
-# 📚 iO Beats Documentation  
-
-[![Audit](https://img.shields.io/badge/Audit-Cyberscope-brightgreen.svg)](https://raw.githubusercontent.com/cyberscope-io/audits/main/iob/audit.pdf)
-[![Docs](https://img.shields.io/badge/Docs-GitBook-brightgreen.svg)](https://docs.iobeats.com)
-[![Deployment](https://img.shields.io/badge/Deployed-MultiChain-purple.svg)](https://github.com/iobeatss/IOB-Smart-contract#deployment)
-[![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-Framework-blue.svg)](https://docs.openzeppelin.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/iobeatss/IOB-Smart-contract/blob/main/LICENSE)
-[![Snapshot](https://img.shields.io/badge/Vote%20Now-Snapshot-blueviolet?logo=snapshot&logoColor=white)](https://snapshot.box/#/s:iobdao.eth)
+- **Dashboards:**  
+  [Dune — IO Beats DAO](https://dune.com/iobeats_dao)
 
 ---
 
-## 📘 Overview  
+## 🧭 Contents
 
-Official documentation hub of the **IO Beats DAO**.  
-It centralizes every key document and visual reference of the $IOB ecosystem —  
-including the **Whitepaper**, **Pitch Deck**, **Governance Plan**, and **Token Distribution**.
-
----
-
-## 🧾 Core Documents  
-
-| Title | PDF Download | Web View |
-|-------|---------------|----------|
-| **Pitch Deck** | [Download PDF](./iobeats-pitch-deck.pdf) | [View Online](https://open.iobeats.com/doc/iobeats-pitch-deck.pdf) |
-| **Whitepaper** | [Download PDF](./iobeats-white-paper.pdf) | [View Online](https://open.iobeats.com/doc/iobeats-white-paper.pdf) |
-| **Governance Plan** | [Download PDF](./iobeats-Governance-plan.pdf) | [View Online](https://open.iobeats.com/doc/iobeats-Governance-plan.pdf) |
-| **Token Distribution** | [Download PDF](./iobeats-token-distribution.pdf) | [View Online](https://open.iobeats.com/doc/iobeats-token-distribution.pdf) |
+- [Transparency Packs](#-transparency-packs)
+- [Governance Docs](#-governance-docs)
+- [Dashboards (Live)](#-dashboards-live)
+- [Releases & Changelog](#-releases--changelog)
+- [Contributing](#-contributing)
+- [Security](#-security)
+- [License](#-license)
 
 ---
 
-## 🧠 Audit & Transparency  
+## 📑 Transparency Packs
 
-- **Main Audit — Cyberscope** → [View Report](https://github.com/cyberscope-io/audits/blob/main/iob/audit.pdf)  
-- **Legacy v1 Audit — CoinScope** → [View Report](https://github.com/cyberscope-io/audits/blob/main/iob/v1/audit.pdf)  
+Curated, investor-ready PDF bundles with on-chain references and CI-generated proofs.
 
-All audits cover:
-- ✅ Smart contract security  
-- ✅ Admin permissions review  
-- ✅ Resistance to common attacks  
-- ✅ Recommendations for improvement  
+- **Global:**  
+  - *IOB_Presale_Global_Overview_v1.0.pdf*  
+  - *IOB_Presale_Terms_v1.0.pdf*  
+  - *IOB_Presale_Proofs_v1.0.pdf*
 
----
+- **Per-Chain (v1.0):**  
+  - *IOB_Treasury_Transparency_ETH_v1.0.pdf*  
+  - *IOB_Treasury_Transparency_BNB_v1.0.pdf*  
+  - *IOB_Treasury_Transparency_Base_v1.0.pdf*  
+  - *IOB_Treasury_Transparency_Polygon_v1.0.pdf*  
+  - *IOB_Treasury_Transparency_Arbitrum_v1.0.pdf*
 
-## 🌐 About IO Beats  
-
-**IO Beats** merges *music, DeFi,* and *community ownership* through NFTs and multi-chain interoperability.
-
-- 🎶 **Ownable Music** — Mint and trade NFT albums with royalties (EIP-2981)  
-- 💰 **DeFi Utility** — Staking, vaults, and reward mechanisms via $IOB  
-- 🗳 **DAO Governance** — Transparent voting on Snapshot & GitHub  
-- 🌍 **Multi-Chain Deployment** — Ethereum · BNB Chain · Polygon · Base · Arbitrum  
-
-> “One Team. One Dream. One Beat.” 🎧  
+> Update (v1.2) in progress: integration of NFT Yield strategies, Sablier vesting reports, and Payroll & Academy transparency docs.
 
 ---
 
-## ⚖️ License  
+## 🗳 Governance Docs
 
-This repository is licensed under the **MIT License**.  
-See [LICENSE](https://github.com/iobeatss/IOB-Smart-contract/blob/main/LICENSE) for details.
+- **DAO Intro & Rules:** Overview of roles, proposals, and execution flow.  
+- **Active Proposals (examples):**  
+  - *Genesis Proposal #001 — The Birth of IO Beats DAO*  
+  - *Treasury Transparency v1.0*  
+  - *Governance Expansion v1.1*
+
+All votes are conducted on **Snapshot** → [iobdao.eth](https://snapshot.box/#/s:iobdao.eth).
 
 ---
 
-© 2025 **IO Beats DAO** — *Music. DeFi. Community.*
+## 📊 Dashboards (Live)
+
+- **Safe Inflows / Outflows / Balance** per chain (Dune).  
+- **Presale metrics & proofs**.  
+- **Liquidity and DeFi positions**.
+
+Primary entry: [Dune — IO Beats DAO](https://dune.com/iobeats_dao).
+
+---
+
+## 🚀 Releases & Changelog
+
+- See repo release notes and tagged PDFs for each pack/version.  
+- Changelog entries are generated via CI in their respective repos when applicable.
+
+---
+
+## 🤝 Contributing
+
+1. Create a branch from `main`.  
+2. Commit Markdown/PDF assets under the relevant `docs/` path.  
+3. Open a Pull Request — the **Docs CI** runs:
+   - Markdown lint (`markdownlint-cli2`)
+   - Link checker (`lychee`)
+   - Codespell (with project dictionary)
+
+> Style: one blank line before/after headings and lists; no consecutive blank lines.
+
+---
+
+## 🔐 Security
+
+If you discover a vulnerability, please report it responsibly:
+
+- Email: security@iobeats.com  
+- Or open a private report via **GitHub Security Advisories**.
+
+Audit: [Cyberscope](https://raw.githubusercontent.com/cyberscope-io/audits/main/iob/audit.pdf).
+
+---
+
+## 📄 License
+
+This repository is licensed under the [MIT License](https://github.com/iobeatss/IOB-Smart-contract/blob/main/LICENSE).
