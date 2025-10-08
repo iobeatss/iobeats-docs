@@ -31,34 +31,30 @@ Central hub for whitepapers, transparency packs, governance docs, and real-time 
 
 ---
 
-## 🧭 Contents
-
-- [Transparency Packs](#-transparency-packs)
-- [Governance Docs](#-governance-docs)
-- [Dashboards (Live)](#-dashboards-live)
-- [Releases & Changelog](#-releases--changelog)
-- [Contributing](#-contributing)
-- [Security](#-security)
-- [License](#-license)
-
----
-
 ## 📑 Transparency Packs
 
 Curated, investor-ready PDF bundles with on-chain references and CI-generated proofs.
 
-- **Global (v1.0):**
-  - [IOB_Presale_Global_Overview_v1.0.pdf](https://github.com/iobeatss/iobeats-docs/blob/main/IOB_Presale_Global_Overview_v1.0.pdf)
-  - [IOB_Presale_Terms_v1.0.pdf](https://github.com/iobeatss/iobeats-docs/blob/main/IOB_Presale_Terms_v1.0.pdf)
-  - [IOB_Presale_Proofs_v1.0.pdf](https://github.com/iobeatss/iobeats-docs/blob/main/IOB_Presale_Proofs_v1.0.pdf)
-  - [IOB_Presale_Allocation_Table_v1.0.csv](https://github.com/iobeatss/iobeats-docs/blob/main/IOB_Presale_Allocation_Table_v1.0.csv)
+### 🌍 Global Transparency (v1.0)
 
-- **Per-Chain (v1.0):**
-  - [IOB_Treasury_Transparency_ETH_v1.0.pdf](https://github.com/iobeatss/treasury/blob/main/docs/transparency/IOB_Treasury_Transparency_ETH_v1.0.pdf)
-  - [IOB_Treasury_Transparency_BNB_v1.0.pdf](https://github.com/iobeatss/treasury/blob/main/docs/transparency/IOB_Treasury_Transparency_BNB_v1.0.pdf)
-  - [IOB_Treasury_Transparency_Base_v1.0.pdf](https://github.com/iobeatss/treasury/blob/main/docs/transparency/IOB_Treasury_Transparency_Base_v1.0.pdf)
-  - [IOB_Treasury_Transparency_Polygon_v1.0.pdf](https://github.com/iobeatss/treasury/blob/main/docs/transparency/IOB_Treasury_Transparency_Polygon_v1.0.pdf)
-  - [IOB_Treasury_Transparency_Arbitrum_v1.0.pdf](https://github.com/iobeatss/treasury/blob/main/docs/transparency/IOB_Treasury_Transparency_Arbitrum_v1.0.pdf)
+| File | Download |
+|------|-----------|
+| IOB Presale Global Overview | [⬇️ Download PDF](https://raw.githubusercontent.com/iobeatss/iobeats-docs/main/IOB_Presale_Global_Overview_v1.0.pdf) |
+| IOB Presale Terms | [⬇️ Download PDF](https://raw.githubusercontent.com/iobeatss/iobeats-docs/main/IOB_Presale_Terms_v1.0.pdf) |
+| IOB Presale Proofs | [⬇️ Download PDF](https://raw.githubusercontent.com/iobeatss/iobeats-docs/main/IOB_Presale_Proofs_v1.0.pdf) |
+| IOB Presale Allocation Table | [⬇️ Download CSV](https://raw.githubusercontent.com/iobeatss/iobeats-docs/main/IOB_Presale_Allocation_Table_v1.0.csv) |
+
+---
+
+### 🔗 Per-Chain Transparency (v1.0)
+
+| Chain | Report |
+|--------|---------|
+| Ethereum | [⬇️ Download PDF](https://raw.githubusercontent.com/iobeatss/treasury/main/docs/transparency/IOB_Treasury_Transparency_ETH_v1.0.pdf) |
+| BNB Chain | [⬇️ Download PDF](https://raw.githubusercontent.com/iobeatss/treasury/main/docs/transparency/IOB_Treasury_Transparency_BNB_v1.0.pdf) |
+| Base | [⬇️ Download PDF](https://raw.githubusercontent.com/iobeatss/treasury/main/docs/transparency/IOB_Treasury_Transparency_Base_v1.0.pdf) |
+| Polygon | [⬇️ Download PDF](https://raw.githubusercontent.com/iobeatss/treasury/main/docs/transparency/IOB_Treasury_Transparency_Polygon_v1.0.pdf) |
+| Arbitrum | [⬇️ Download PDF](https://raw.githubusercontent.com/iobeatss/treasury/main/docs/transparency/IOB_Treasury_Transparency_Arbitrum_v1.0.pdf) |
 
 > **Next Update (v1.2):** integration of NFT Yield strategies, Sablier vesting reports, and Payroll & Academy transparency docs.
 
@@ -66,13 +62,17 @@ Curated, investor-ready PDF bundles with on-chain references and CI-generated pr
 
 ## 🗳 Governance Docs
 
-- [IOB_Governance_Plan_v1.0.pdf](https://github.com/iobeatss/iobeats-docs/blob/main/iobeats-Governance-plan.pdf)  
-- **Active Proposals:**  
-  - [Genesis Proposal #001 — The Birth of IO Beats DAO](https://snapshot.box/#/s:iobdao.eth/proposal/1)
-  - [Treasury Transparency v1.0](https://snapshot.box/#/s:iobdao.eth/proposal/2)
-  - [Governance Expansion v1.1](https://snapshot.box/#/s:iobdao.eth/proposal/3)
+| Document | Download |
+|-----------|-----------|
+| Governance Plan | [⬇️ Download PDF](https://raw.githubusercontent.com/iobeatss/iobeats-docs/main/iobeats-Governance-plan.pdf) |
+| Pitch Deck | [⬇️ Download PDF](https://raw.githubusercontent.com/iobeatss/iobeats-docs/main/iobeats-pitch-deck.pdf) |
+| Token Distribution | [⬇️ Download PDF](https://raw.githubusercontent.com/iobeatss/iobeats-docs/main/iobeats-token-distribution.pdf) |
+| Whitepaper | [⬇️ Download PDF](https://raw.githubusercontent.com/iobeatss/iobeats-docs/main/iobeats-white-paper.pdf) |
 
-All votes occur on **Snapshot** → [iobdao.eth](https://snapshot.box/#/s:iobdao.eth).
+**Active Proposals:**
+- [Genesis Proposal #001 — The Birth of IO Beats DAO](https://snapshot.box/#/s:iobdao.eth/proposal/1)
+- [Treasury Transparency v1.0](https://snapshot.box/#/s:iobdao.eth/proposal/2)
+- [Governance Expansion v1.1](https://snapshot.box/#/s:iobdao.eth/proposal/3)
 
 ---
 
@@ -87,7 +87,7 @@ All votes occur on **Snapshot** → [iobdao.eth](https://snapshot.box/#/s:iobdao
 ## 🚀 Releases & Changelog
 
 - [Release v1.0 — IO Beats Documentation](https://github.com/iobeatss/iobeats-docs/releases/tag/v1.0)
-- [CHANGELOG.md](https://github.com/iobeatss/iobeats-docs/blob/main/CHANGELOG.md) (coming soon)
+- [CHANGELOG.md](https://github.com/iobeatss/iobeats-docs/blob/main/CHANGELOG.md) *(coming soon)*
 
 ---
 
@@ -95,7 +95,7 @@ All votes occur on **Snapshot** → [iobdao.eth](https://snapshot.box/#/s:iobdao
 
 1. Create a branch from `main`.  
 2. Commit Markdown/PDF assets under the appropriate `docs/` path.  
-3. Open a Pull Request — **Docs CI** runs:
+3. Open a Pull Request — **Docs CI** runs automatically:
    - Markdown lint (`markdownlint-cli2`)
    - Link checker (`lychee`)
    - Codespell (`.codespellignore.txt` dictionary)
