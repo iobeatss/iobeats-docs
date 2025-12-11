@@ -65,9 +65,19 @@ Curated, investor-ready PDF bundles with on-chain references and CI-generated pr
 | Document | Download |
 |-----------|-----------|
 | Governance Plan | [⬇️ Download PDF](https://raw.githubusercontent.com/iobeatss/iobeats-docs/main/iobeats-Governance-plan.pdf) |
-| Pitch Deck | [⬇️ Download PDF](https://raw.githubusercontent.com/iobeatss/iobeats-docs/main/iobeats-pitch-deck.pdf) |
-| Token Distribution | [⬇️ Download PDF](https://raw.githubusercontent.com/iobeatss/iobeats-docs/main/iobeats-token-distribution.pdf) |
-| Whitepaper | [⬇️ Download PDF](https://raw.githubusercontent.com/iobeatss/iobeats-docs/main/iobeats-white-paper.pdf) |
+| Pitch Deck (Legacy) | [⬇️ Download PDF](https://raw.githubusercontent.com/iobeatss/iobeats-docs/main/iobeats-pitch-deck.pdf) |
+| Token Distribution (Legacy) | [⬇️ Download PDF](https://raw.githubusercontent.com/iobeatss/iobeats-docs/main/iobeats-token-distribution.pdf) |
+| Whitepaper (Legacy) | [⬇️ Download PDF](https://raw.githubusercontent.com/iobeatss/iobeats-docs/main/iobeats-white-paper.pdf) |
+
+### 📌 Updated Official Documents (v1.02 — October 26, 2025)
+
+| Document | Download |
+|-----------|-----------|
+| **Governance Framework v1.02** | [⬇️ Download PDF](https://raw.githubusercontent.com/iobeatss/iobeats-docs/main/Gouvernance-v102-October-26-2025.pdf) |
+| **IO Beats Roadmap v1.02** | [⬇️ Download PDF](https://raw.githubusercontent.com/iobeatss/iobeats-docs/main/IO%20Beats%20Roadmap%20v102-October-26-2025.pdf) |
+| **Pitch Deck v1.02** | [⬇️ Download PDF](https://raw.githubusercontent.com/iobeatss/iobeats-docs/main/Pitch-Deck-v102-October-26-2025.pdf) |
+| **Tokenomics v1.02 (Investor Edition)** | [⬇️ Download PDF](https://raw.githubusercontent.com/iobeatss/iobeats-docs/main/Tokenomics-v102-October-26-2025.pdf) |
+| **Whitepaper v1.02** | [⬇️ Download PDF](https://raw.githubusercontent.com/iobeatss/iobeats-docs/main/Whitepaper-v102-October-26-2025.pdf) |
 
 **Active Proposals:**
 - [Genesis Proposal #001 — The Birth of IO Beats DAO](https://snapshot.box/#/s:iobdao.eth/proposal/1)
